@@ -20,7 +20,7 @@ server:
   port: 8180
 #  contextPath: /SpringIODemo
 liquibase:
- enabled: false
+ enabled: true
 hibernate:
   dialect: org.hibernate.dialect.PostgreSQLDialect
   show_sql: true
