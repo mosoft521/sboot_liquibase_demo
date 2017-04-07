@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: delete
+      author: pavi
+      comment: "renameColumn to user_info"
+      changes:
+        - renameColumn:
+            columnDataType: int
+            newColumnName: id
+            oldColumnName: id
+            remarks: A String
+            tableName: user_info

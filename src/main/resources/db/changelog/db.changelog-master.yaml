@@ -15,7 +15,8 @@ databaseChangeLog:
 #     file: "db/changelog/demo/v1.0-dropAllForeignKey.yaml"
 #  - include:
 #     file: "db/changelog/demo/v1.0-dropColumn.yaml"
-
+#  - include:
+#     file: "db/changelog/demo/v1.0-renameColumn.yaml"
 
 
 
