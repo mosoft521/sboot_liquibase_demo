@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: delete
+      author: pavi
+      comment: "add primary key to user_info"
+      changes:
+        - delete:
+            tableName: user_info
+            where: user_id = 1

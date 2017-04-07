@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: add_column
+      author: pavi
+      comment: "add column qq to user_info"
+      changes:
+        - addColumn:
+            columns:
+            - column:
+                name: qq
+                type: varchar(255)
+            tableName: user_info

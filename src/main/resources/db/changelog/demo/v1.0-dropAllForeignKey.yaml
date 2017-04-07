@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: deleteforeignkey
+      author: pavi
+      comment: "删除表的所有外键"
+      changes:
+        - dropAllForeignKeyConstraints:
+            baseTableName: user_info

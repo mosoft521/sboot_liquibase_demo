@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: addDefaultValue
+      author: pavi
+      comment: "addDefaultValue qq to user_info"
+      changes:
+        - addDefaultValue:
+            columnDataType: varchar(50)
+            columnName: qq
+            defaultValue: 默认值
+#            defaultValueBoolean: true
+#            defaultValueComputed: now
+#            defaultValueDate: A String
+#            defaultValueNumeric: A String
+#            defaultValueSequenceNext: seq_name
+            tableName: user_info

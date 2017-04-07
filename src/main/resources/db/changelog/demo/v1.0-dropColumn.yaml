@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: dropColumn
+      author: pavi
+      comment: "add primary key to user_info"
+      changes:
+        - dropColumn:
+            columnName: id
+            tableName: user_info

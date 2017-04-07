@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: sk
+      author: pavi
+      comment: "add primary key to user_info"
+      changes:
+        - update:
+            columns:
+            - column:
+                name: first_name
+                type: varchar(255)
+                value: 1234
+            tableName: user_info
+            where: user_id = 1
